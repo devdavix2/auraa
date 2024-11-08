@@ -37,7 +37,7 @@ function CustomWallets() {
 
 
 
-function  MobileMenu() {
+function  Header() {
   
 
         return (
@@ -69,7 +69,7 @@ function  MobileMenu() {
                         </div>
                     </a>
                 </div>
-                <nav className="sticky top-0 w-full bg-[#092022]">
+                <nav className="sticky top-0 w-full bg-[#0c2a2d]">
                     <div className="relative z-10">
                         <div className="w-full max-w-[1400px] px-6 md:px-16 mx-5 flex items-center justify-between h-20">
                             {/* Logo */}
@@ -169,4 +169,4 @@ function  MobileMenu() {
    )
 }
 
-export default MobileMenu
+export default Header
