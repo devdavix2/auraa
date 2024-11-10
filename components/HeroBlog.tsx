@@ -47,7 +47,7 @@ const HeroBlog = () => {
 
               
               <img
-                src={`/static/images/${blog.src}.png`}
+                src={`/images/${blog.src}.png`}
                 alt={blog.src}
                 width={300}
                 height={60}

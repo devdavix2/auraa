@@ -12,7 +12,7 @@ const HeroSection = () => {
         <div className="flex flex-wrap  mt-8 px-8 mx-24 items-center gap-8 md:gap-10">
           <div className="flex items-center justify-center w-20 h-20 text-black bg-white rounded-full">
             <img
-              src="/static/images/near.webp"
+              src="/images/near.webp"
               alt="image"
               width={50}
               height={50}
@@ -21,7 +21,7 @@ const HeroSection = () => {
 
           <div className="flex items-center justify-center w-20 h-20 text-black bg-white rounded-full">
             <img
-              src="/static/images/graph.png"
+              src="/images/graph.png"
               alt="image"
               width={50}
               height={50}
@@ -30,7 +30,7 @@ const HeroSection = () => {
 
           <div className="flex items-center justify-center w-20 h-20 text-black bg-white rounded-full">
             <img
-              src="/static/images/curve.png"
+              src="/images/curve.png"
               alt="image"
               width={50}
               height={50}
@@ -39,7 +39,7 @@ const HeroSection = () => {
 
           <div className="flex items-center justify-center w-20 h-20 text-black bg-white rounded-full">
             <img
-              src="/static/images/safe.png"
+              src="/images/safe.png"
               alt="image"
               width={50}
               height={50}
@@ -48,7 +48,7 @@ const HeroSection = () => {
 
           <div className="flex items-center justify-center w-20 h-20 text-black bg-white rounded-full">
             <img
-              src="/static/images/syn.png"
+              src="/images/syn.png"
               alt="image"
               width={50}
               height={50}
@@ -57,7 +57,7 @@ const HeroSection = () => {
 
           <div className="flex items-center justify-center w-20 h-20 text-black bg-white rounded-full">
             <img
-              src="/static/images/cov.png"
+              src="/images/cov.png"
               alt="image"
               width={50}
               height={50}
@@ -66,7 +66,7 @@ const HeroSection = () => {
 
           <div className="flex items-center justify-center w-20 h-20 text-black bg-white rounded-full">
             <img
-              src="/static/images/py.png"
+              src="/images/py.png"
               alt="image"
               width={0}
               height={0}

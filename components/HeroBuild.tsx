@@ -9,7 +9,7 @@ const HeroBuild = () => {
             <h2 className="text-white text-xl md:text-6xl space-y-4 font-black">
               <span  className="text-transparent bg-clip-text saturate-150"  style={{
                                 WebkitBoxDecorationBreak: 'clone',
-                                backgroundImage: "url('/static/aurora-blur.jpg')",
+                                backgroundImage: "url('/images/aurora-blur.jpg')",
                                 backgroundSize: '200% auto',
                                 backgroundPosition: '100% 65%',
                                 backgroundColor: '#000',

@@ -146,7 +146,7 @@ const Projects = () => {
             <div className=" justify-items-center overflow-hidden bg-[#1a373d] w-[200px] h-[200px] rounded-[5px] opacity-100 border-0 m-0 p-5">
 
                   <img
-                    src={`/static/images/${project.src}.png`}
+                    src={`/images/${project.src}.png`}
                     alt={project.src}
                     width={50}
                     height={50}
