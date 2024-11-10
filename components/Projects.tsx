@@ -10,7 +10,7 @@ const Projects = () => {
             <h2 className="text-5xl md:text-5xl font-black !leading-[1.2]">
                 <div   className="text-transparent bg-clip-text saturate-150"  style={{
                   WebkitBoxDecorationBreak: 'clone',
-                  backgroundImage: "url('/static/aurora-blur.jpg')",
+                  backgroundImage: "url('/images/aurora-blur.jpg')",
                   backgroundSize: '200% auto',
                   backgroundPosition: '50% 40%',
                   backgroundColor: '#000',
