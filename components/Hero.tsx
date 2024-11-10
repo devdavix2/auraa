@@ -1,5 +1,39 @@
 import React from 'react';
+import { ConnectButton } from "thirdweb/react";
+import { client } from "../src/client";
+import { createWallet } from "thirdweb/wallets";
 
+
+
+
+function CustomWallets() {
+  const wallets = [
+    createWallet("io.metamask"),
+    createWallet("com.coinbase.wallet"),
+    createWallet("app.phantom"),
+    createWallet("com.trustwallet.app"),
+  ];
+
+  return (
+    <ConnectButton
+      client={client}
+      wallets={wallets}
+      connectModal={{ size: "compact" }}
+      connectButton={{
+        label: "Connect Wallet",
+        style: {
+          padding: "2px",
+            height: "30px",
+          width: "auto" ,
+          backgroundColor: "white",
+          fontSize: "15px",
+            fontWeight: "bold",
+            
+        },
+      }}
+    />
+  );
+}
 
 const Hero: React.FC = () => {
   return (
@@ -68,7 +102,8 @@ const Hero: React.FC = () => {
             id="connect-wallet"
             className="relative items-center justify-center whitespace-nowrap transition-transform hover:scale-103 active:scale-95 focus:outline-none font-medium inline-flex bg-black text-white dark:text-black dark:bg-white h-8 text-sm rounded-md px-3"
           >
-            Connect Wallet
+          
+          <CustomWallets />
           </button>
 
           <a
