@@ -15,7 +15,8 @@ const Hero: React.FC = () => {
                   backgroundSize: '200% auto',
                   backgroundPosition: '50% 40%',
                   backgroundColor: '#000',
-                }}
+                              }}
+                              
               >
                 Shooting for the stars.
               </span>

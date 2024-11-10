@@ -5,7 +5,7 @@
 #root{
   overflow-x: hidden;
   overflow-y: hidden;
-  background-color: 041417;
+ 
 }
 
 @font-face {
@@ -4285,5 +4285,210 @@ select {
   }
   .xl\:pl-0 {
     padding-left: 0;
+  }
+}
+
+
+
+
+.herotext {
+  background-image: url("/static/aurora-blur.jpg") !important;
+  background-size: 200% auto !important;
+  background-position: 50% 40% !important;
+  background-color: #000 !important; /* Fallback color */
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 85px;
+}
+
+.projecttext {
+  background-image: url("/static/aurora-blur.jpg") !important;
+  background-size: 200% auto !important;
+  background-position: 50% 40% !important;
+  background-color: #000 !important; /* Fallback color */
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 45px;
+}
+
+.buildtext {
+  background-image: url("/static/aurora-blur.jpg") !important;
+  background-size: 200% auto !important;
+  background-position: 100% 65% !important;
+  background-color: #000 !important; /* Fallback color */
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.textsecondary {
+  color: hsla(0, 0%, 100%, 0.66);
+}
+
+.textprimary {
+  --tw-text-opacity: 1;
+  color: rgba(120, 214, 75, var(--tw-text-opacity));
+  display: flex;
+  justify-self: center;
+  margin-top: 2px;
+  font-weight: bold;
+}
+
+.textprimaryproject {
+  --tw-text-opacity: 1;
+  color: rgba(120, 214, 75, var(--tw-text-opacity));
+  display: flex;
+  justify-self: center;
+  margin-top: 2px;
+  font-size: 35px;
+}
+
+.textprimaryprojecth1 {
+  font-size: 20px;
+}
+.leadingtight {
+  line-height: 1.25 !important;
+  font: small;
+}
+
+.near {
+  box-sizing: border-box;
+  display: inline-block;
+  overflow: hidden;
+  width: initial;
+  height: initial;
+  background: none;
+  opacity: 1;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  max-width: 100%;
+  display: flex;
+  justify-items: center;
+  width: 20;
+  height: 20;
+  color: black !important;
+  background-color: white !important;
+  padding: 50%;
+}
+
+.nearimage {
+  display: block;
+  max-width: 100%;
+  width: initial;
+  height: initial;
+  background: none;
+  opacity: 1;
+  border: 0;
+  margin: 0;
+  padding: 0;
+
+  height: 0;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.projectmainbox {
+  box-sizing: border-box;
+  display: block;
+  overflow: hidden;
+  background: #1a373d;
+  width: 280px;
+  height: 380px;
+  border-radius: 5px;
+  opacity: 1;
+  border: 0;
+  padding-left: 20px;
+  padding: 40px;
+  justify-items: center;
+  align-items: center;
+}
+
+.projectbox {
+  box-sizing: border-box;
+  display: block;
+  overflow: hidden;
+  background: #1a373d;
+  width: 250px;
+  height: 250px;
+  border-radius: 5px;
+  opacity: 1;
+  border: 0;
+  padding-left: 20px;
+  padding: 30px;
+  justify-items: center;
+  align-items: center;
+}
+
+.blogbox {
+  box-sizing: border-box;
+  display: block;
+  overflow: hidden;
+  background: #1a373d;
+  width: 280px;
+  height: 350px;
+  border-radius: 5px;
+  opacity: 1;
+  border: 0;
+  margin: 0;
+  padding: 20px;
+}
+
+.blogboxdate {
+  color: hsla(0, 0%, 100%, 0.66);
+  margin-top: 20px;
+  padding: 5px;
+  padding-bottom: 8px;
+}
+
+.blogboxdetials {
+  padding: 5px;
+  padding-bottom: 8px;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.suscribebox {
+  box-sizing: border-box;
+  display: flex;
+  z-index: 1000;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  width: 60%;
+  margin-left: 80px;
+  padding: 15px;
+  background: #1a373d;
+  border-radius: 5px;
+}
+
+.bgprimary {
+  background-color: rgba(120, 214, 75, 0.3);
+  font-weight: 600;
+  font-size: 0.75rem /* 12px */;
+  line-height: 1rem /* 16px */;
+  padding-top: 0.125rem /* 2px */;
+  padding-bottom: 0.125rem /* 2px */;
+  padding-left: 0.25rem /* 4px */;
+  padding-right: 0.25rem /* 4px */;
+  border-radius: 0.25rem /* 4px */;
+  color: rgba(120, 214, 75);
+}
+
+@media (max-width: 760px) {
+  .herotext {
+    background-image: url("/static/aurora-blur.jpg") !important;
+    background-size: 200% auto !important;
+    background-position: 50% 40% !important;
+    background-color: #000 !important; /* Fallback color */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
   }
 }
