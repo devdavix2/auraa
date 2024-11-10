@@ -8,7 +8,7 @@ const Footer = () => {
         <h2 className="text-4xl md:text-5xl font-black !leading-[1.2]">
                       <div   className="text-transparent bg-clip-text saturate-150"  style={{
                   WebkitBoxDecorationBreak: 'clone',
-                  backgroundImage: "url('/static/aurora-blur.jpg')",
+                  backgroundImage: "url('/src/images/aurora-blur.jpg')",
                   backgroundSize: '200% auto',
                   backgroundPosition: '50% 40%',
                   backgroundColor: '#000',
@@ -57,7 +57,7 @@ const Footer = () => {
           >
             <div  className=" justify-items-center overflow-hidden bg-[#1a373d] w-[250px] h-[350px] rounded-[5px] opacity-100 border-0 m-0 p-5">
               <img
-                src={`/static/images/${project.src}.png`}
+                src={`/src/images/${project.src}.png`}
                 alt={project.src}
                 width={100}
                 height={100}
