@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const Hero: React.FC = () => {
   return (
     <main className="flex flex-col flex-1 w-full ">
