@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
                 className="text-transparent bg-clip-text saturate-150"
                 style={{
                   WebkitBoxDecorationBreak: 'clone',
-                  backgroundImage: "url('/images/aurora-blur.jpg')",
+                  backgroundImage: "url('/src/images/aurora-blur.jpg')",
                   backgroundSize: '200% auto',
                   backgroundPosition: '50% 40%',
                   backgroundColor: '#000',
