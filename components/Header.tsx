@@ -145,7 +145,7 @@ function Header() {
 
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
-        <div className="sm:hidden rounded-xl bg-translucent-dark shadow-xl max-h-[88vh] space-y-5 pt-5 mb-10 scale-100 opacity-100 text-white px-10 flex flex-col items-start ">
+        <div className="sm:hidden rounded-xl bg-translucent-dark shadow-xl max-h-[88vh] space-y-5 p-5 pt-5 mb-10 scale-100 opacity-100 text-white px-10 flex flex-col items-start ">
             
           <a href="#" className="text-white hover:text-gray-300 transition">
             About
